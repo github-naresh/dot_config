@@ -1,0 +1,9 @@
+# Ignore all files and folders
+/*
+
+# Except the nvim folder
+!/nvim/
+
+# Except everything inside the nvim folder
+!/nvim/**
+
