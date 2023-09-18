@@ -7,3 +7,5 @@
 # Except everything inside the nvim folder
 !/nvim/**
 
+# track .tmux.conf file
+!.tmux.conf
