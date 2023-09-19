@@ -45,11 +45,11 @@ k.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in n
 
 -- Terminal management
 --k.set("n","<C-\\>", "<cmd>ToggleTerm<CR>", { desc = "Toggle terminal" })
-k.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<CR>", { desc = "Toggle terminal" })
-k.set(
-  "n",
-  "<leader>th",
-  "<cmd>ToggleTerm size=10 direction=horizontal<CR>",
-  { desc = "Toggle terminal horizontal split" }
-)
-k.set("n", "<leader>tv", "<cmd>ToggleTerm size=80 direction=vertical<CR>", { desc = "Toggle terminal vertical split" })
+-- k.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<CR>", { desc = "Toggle terminal" })
+-- k.set(
+--   "n",
+--   "<leader>th",
+--   "<cmd>ToggleTerm size=10 direction=horizontal<CR>",
+--   { desc = "Toggle terminal horizontal split" }
+-- )
+-- k.set("n", "<leader>tv", "<cmd>ToggleTerm size=80 direction=vertical<CR>", { desc = "Toggle terminal vertical split" })
