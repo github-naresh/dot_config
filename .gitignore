@@ -1,11 +1,17 @@
-# Ignore all files and folders
+# Ignore everything 
 /*
 
-# Except the nvim folder
+# nvim configuration
 !/nvim/
-
-# Except everything inside the nvim folder
 !/nvim/**
 
-# track .tmux.conf file
-!.tmux.conf
+# tmux configuration 
+!/tmux/
+!/tmux/**
+/tmux/*.log
+/tmux/plugins
+
+
+# wezterm configuration
+!/wezterm/
+!/wezterm/**
